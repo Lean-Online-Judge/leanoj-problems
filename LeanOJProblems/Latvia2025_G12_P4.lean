@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Nat.Prime.Defs
 
-theorem solution (p : ℕ) (q : ℕ) (hp : p.Prime) (hq : q.Prime) (h : ∃ a : ℕ, (p^2 + p*q + q^2) = a^2) : Nat.Prime (p^2 - p*q + q^2) := sorry
-
+theorem solution (p q : ℕ) (hp : p.Prime) (hq : q.Prime)
+    (h : ∃ a, p ^ 2 + p * q + q ^ 2 = a ^ 2) : (p ^ 2 - p * q + q ^ 2).Prime := sorry
