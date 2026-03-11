@@ -9,7 +9,7 @@ relaxedAutoImplicit = false
 weak.linter.mathlibStandardSet = true
 maxSynthPendingDepth = 3
 weak.linter.style.longLine = true # Check that lines are not longer than 100 characters
-warn.sorry = false # Convert warnings into errors
+warn.sorry = false # Don't give a warning for sorrys
 
 [[require]]
 name = "mathlib"

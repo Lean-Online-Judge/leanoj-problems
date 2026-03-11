@@ -16,4 +16,4 @@ jobs:
       - uses: actions/checkout@v5
       - uses: leanprover/lean-action@v1
         with:
-          build-args: "--wfail"
+          build-args: "--wfail" # Treat warnings as errors
