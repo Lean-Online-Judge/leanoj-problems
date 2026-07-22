@@ -1,4 +1,4 @@
-import Mathlib.tactic
+import Mathlib.Tactic
 
 def a : ℕ → ℚ
   | 0 => 0
